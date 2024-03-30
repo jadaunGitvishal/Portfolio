@@ -5,31 +5,42 @@ import six from "../assets/svg/projects/six.svg";
 export const projectsData = [
   {
     id: 1,
-    projectName: "Ayla Networks",
+    projectName: "Guess my number",
     projectDesc:
-      "This project about Simplifying the Development of Smart Home & IoT Solutions.",
-    tags: ["React", "SAAS", "React Bootstrap"],
+      "The 'Guess My Number' game is an interactive guessing game where the player tries to guess a secret number within a specified range. The game provides feedback after each guess, guiding the player closer to the correct answer. The player wins by guessing the correct number within the allowed number of attempts.",
+    tags: ["React", "CSS", "HTML", "JavaScript"],
     code: "",
-    demo: "https://www.aylanetworks.com/",
+    demo: "https://jadaungitvishal.github.io/Guess-my-Number/",
     image: six,
   },
   {
     id: 2,
-    projectName: "Jewelry Niche",
+    projectName: "lading page ",
     projectDesc:
-      "This project is a Jewelry shop, Customer can be buy product and manage them and make payment.",
-    tags: ["React", "Express", "Material Ui"],
-    code: "https://github.com/said7388/jewelry-niche",
-    demo: "https://pandora-web.netlify.app/",
+      "The Medvisor product landing page serves as a gateway for customers to learn about our innovative healthcare solution. Visitors can explore detailed information about the product's features and benefits, while also easily accessing the Contact Us section to connect with our dedicated product team.",
+    tags: ["React", "javascript", "MySQL", "node", "css", "HTML"],
+    // code: "https://github.com/said7388/jewelry-niche",
+    demo: "https://medvisor.metamix.tech:3050/",
     image: seven,
   },
   {
     id: 3,
-    projectName: "Travel Agency",
-    projectDesc: "This project about travel agency management.",
-    tags: ["React", "CSS", "Material Ui"],
-    code: "https://github.com/said7388/Travel-Agency-client",
-    demo: "https://travel-agency-fc58b.web.app/",
+    projectName: "Netflix clone",
+    projectDesc:
+      "Creating a Netflix clone involves developing a streaming platform with a similar user interface and features as Netflix. Users can browse, search, and watch a library of movies and TV shows. The platform also includes functionalities for user authentication, personalized recommendations, and content management.",
+    tags: ["React", "Node", "CSS", "javascript", "MySQL", "HTML"],
+    // code: "https://github.com/said7388/Travel-Agency-client",
+    // demo: "https://travel-agency-fc58b.web.app/",
+    image: eight,
+  },
+  {
+    id: 4,
+    projectName: "File Processing Tool",
+    projectDesc:
+      "A File Processing Tool facilitates the manipulation and analysis of files. Users can select, process, and manage various file types efficiently. It offers functionalities such as parsing, conversion, and organization of data for streamlined workflows.",
+    tags: ["C#", "MySQL"],
+    // code: "https://github.com/said7388/Travel-Agency-client",
+    // demo: "https://travel-agency-fc58b.web.app/",
     image: eight,
   },
 ];
